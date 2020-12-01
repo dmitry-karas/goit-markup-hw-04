@@ -30,6 +30,10 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* ========== END UTILITIES ========== */
 
 /* ========== BODY ========== */
@@ -178,13 +182,12 @@ img {
 /* ========== END HERO ========== */
 
 /* ========== FEATURES ========== */
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 /* .features-container {
   justify-content: space-between;
 } */
+.features {
+  padding-bottom: 0;
+}
 .features-list {
   display: flex;
 }
@@ -238,11 +241,9 @@ img {
 /* ========== END FEATURES ========== */
 
 /* ========== SERVICES ========== */
-.services {
-  padding-bottom: 94px;
-}
 .services-title,
-.team-title {
+.team-title,
+.clients-title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -260,9 +261,6 @@ img {
 
 /* ========== TEAM ========== */
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
   background-color: var(--secondary-background-color);
 }
 .team-list {
@@ -294,6 +292,13 @@ img {
 }
 
 /* ========== END TEAM ========== */
+
+/* ========== CLIENTS ========== */
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+/* ========== END CLIENTS ========== */
 
 /* ========== FOOTER ========== */
 .footer {
