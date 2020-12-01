@@ -128,7 +128,7 @@ img {
 
 /* ========== HERO ========== */
 .hero {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   min-height: 600px;
   margin: 0 auto;
   padding-top: 200px;
@@ -136,11 +136,14 @@ img {
 
   text-align: center;
   background-color: var(--hero-background-color);
+
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero-title {
   width: 696px;
