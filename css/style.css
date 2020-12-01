@@ -194,6 +194,30 @@ img {
 .features-list-item + .features-list-item {
   margin-left: 30px;
 }
+.features-list-item::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--secondary-background-color);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.features-list-item:nth-child(1)::before {
+  background-image: url(../icons/antenna\ 1.svg);
+}
+.features-list-item:nth-child(2)::before {
+  background-image: url(../icons/clock\ 1.svg);
+}
+.features-list-item:nth-child(3)::before {
+  background-image: url(../icons/diagram\ 1.svg);
+}
+.features-list-item:nth-child(4)::before {
+  background-image: url(../icons/astronaut\ 1.svg);
+}
 .features-list-title {
   margin-top: 0;
   margin-bottom: 10px;
