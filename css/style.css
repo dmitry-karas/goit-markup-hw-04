@@ -503,30 +503,20 @@ img {
   margin-right: 10px;
 }
 .footer-social-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
 
   background-color: rgba(255, 255, 255, 0.1);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
-  outline: none;
 }
-.footer-social-link.instagram {
-  background-image: url(../icons/instagram\ 2.svg);
-}
-.footer-social-link.twitter {
-  background-image: url(../icons/twitter\ 1.svg);
-}
-.footer-social-link.facebook {
-  background-image: url(../icons/facebook\ 1.svg);
-}
-.footer-social-link.linkedin {
-  background-image: url(../icons/linkedin\ 1.svg);
+.footer-social-icon {
+  fill: var(--white-text-color);
 }
 /* ========== END FOOTER ========== */
