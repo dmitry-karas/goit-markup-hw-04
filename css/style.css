@@ -119,11 +119,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.header-address {
+  display: flex;
+}
 .address-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 .header-address-link {
+  display: flex;
   font-style: normal;
   color: var(--primary-text-color);
 }
@@ -210,33 +214,6 @@ img {
 
   background-color: var(--secondary-background-color);
 }
-/* .features-list-item::before {
-  content: '';
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-
-  background-color: var(--secondary-background-color);
-
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.features-list-item:nth-child(1)::before {
-  background-image: url(../icons/antenna\ 1.svg);
-}
-
-.features-list-item:nth-child(2)::before {
-  background-image: url(../icons/clock\ 1.svg);
-}
-
-.features-list-item:nth-child(3)::before {
-  background-image: url(../icons/diagram\ 1.svg);
-}
-
-.features-list-item:nth-child(4)::before {
-  background-image: url(../icons/astronaut\ 1.svg);
-} */
 .features-list-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -330,9 +307,7 @@ img {
   color: var(--icon-color);
 }
 .team-social-link:hover,
-.team-social-link:focus,
-.team-icon:hover,
-.team-icon:focus {
+.team-social-link:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
@@ -410,6 +385,7 @@ img {
 .portfolio-nav-button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .portfolio-cards {
   display: flex;
